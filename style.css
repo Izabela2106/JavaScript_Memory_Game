@@ -6,7 +6,7 @@
 @font-face {
     font-family: Tiger;
 
-    src: url(fonts/Tiger-1G9RM.otf) format("opentype");
+    src: url(./fonts/Tiger-1G9RM.otf) format("opentype");
 }
 
 body {
