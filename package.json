@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server"
+    
+    "build": "webpack ./js/Game.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "http": "0.0.1-security",
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "webpack": "^5.33.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
   }
 }
