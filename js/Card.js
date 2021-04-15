@@ -19,7 +19,7 @@ export class Card {
         back.classList.add("cardBack");
         let imgContainer = document.createElement("div");
         imgContainer.classList.add("imgContainer");
-        imgContainer.style.backgroundImage = `url(/img/${num}.jpg)`;
+        imgContainer.style.backgroundImage = `url(../img/${num}.jpg)`;
         back.style.backgroundImage = `transparent`;
         back.appendChild(imgContainer);
         card.appendChild(back);
